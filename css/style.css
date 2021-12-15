@@ -1,0 +1,21 @@
+body {
+    min-width: 420px;
+    min-height: 100vh;
+    background: fixed url(../css/image2/paysage-oasis.jpg) center/cover no-repeat ;
+
+  
+}
+
+.bg-blur {
+    backdrop-filter: blur(20px);
+}
+
+.login-form [type=email] {
+    display: none;
+}
+
+/* @media (orientation: portrait) {
+    body {
+        backdrop-filter: blur(20px);
+    }
+} */
